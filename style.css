@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial , sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+main{
+  position: relative;
+  min-height: 100%;
+}
+
+
+section {
+  padding-bottom: 90px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.container
+{
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.text-left
+{
+	text-align: left;
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+
+
+.text
+{
+	font-family: cursive;
+}
+
+body
+{
+	background-color:white;
+	 position: relative;
+  		min-height: 100%;
+}
+
+
+main
+{
+	 position: relative;
+  min-height: 100%;
+}
+
+main header
+{
+	border-bottom: 2px solid #ccc;
+	height: 120px;
+}
+
+main header h1
+{
+	margin-top: 20px;
+	font-size: 30px
+}
+
+main header p
+{
+	margin-top: 20px;
+	font-size: 20px
+}
+
+
+main header p:last-child
+{
+	margin-top: 0px;
+	text-align: right;
+}
+
+main nav ul
+{
+	text-align: center;
+}
+
+main nav ul li
+{
+	display: inline-block;
+	margin-top:20px;
+	font-size: 25px;
+	margin-right: 90px 
+}
+
+main nav ul li:last-child
+{
+	margin-right: 0px
+}
+
+main nav ul li a
+{
+	text-decoration: none;
+	color:black;
+}
+
+main nav ul li a:hover
+{
+	color:#e43b37;
+
+}
+
+main section .info
+{
+	border: 2px solid #ccc;
+	margin: 50px;
+	padding:20px;
+}
+
+main section .info h2
+{
+	font-size: 20px
+}
+
+main section .info p
+{
+	margin-top:20px
+}
+
+main section .info ol
+{
+	margin-left: 18px;
+	margin-top:20px;
+}
+
+main section .info ol li
+{
+	font-size: 20px
+}
+
+
+main .comment
+{
+	border: 2px solid #ccc;
+	width: 80%;
+	margin: 20px auto;
+	padding:10px;
+}
+
+
+#contact p
+{
+	font-size: 18px
+}
+
+#contact 
+{
+	text-align: center;
+}
+
+#contact form
+{
+	margin: 20px 0px
+}
+
+#contact form input , #contact form textarea
+{
+	width: 800px;
+	height: 35px;
+	margin:6px 0px;
+	font-size: 20px
+
+}
+
+#contact form textarea
+{
+	height: 90px;
+}
+
+.submit
+{
+	background-color:#e43b37;
+	border: 0px;
+	font-size: 20px;
+	color:white;
+	cursor: pointer;
+}
+
+main footer
+{
+	height: 50px;
+	background: #ddd;
+	text-align: center;
+	text-align: center;
+}
+
+main footer a
+{
+	float: left;
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	margin: 0 3px;
+	position: relative;
+	left: 431px
+}
+
+.social-fa
+{
+	background: url(../img/fa.png);
+}
+.social-vk
+{
+	background: url(../img/vk.png);
+}
+.social-oc
+{
+	background: url(../img/oc.png);
+}
+
+
+section article
+{
+	color:#e43b37;
+}
+
+section article p
+{
+	color:black;
+}
+
+ section article img{
+	border:2px solid #ccc 
+}
+
+
+
+.navigation , .pagination
+{
+	text-align: center;
+
+}
+
+.navigation h2 , .pagination h2
+{
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	color:#ff6e4e;
+}
+
+.navigation a , .pagination a
+{
+	color:#00a0b0;
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.social p
+{
+	display: inline-block;
+	margin-top:15px;
+	margin-right: 51px;
+	font-size: 20px;
+	font-family: Arial
+}
+
+/* Комментарии + форма */
+
+	/* Контейнер комментария */
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	width: 650px;
+	margin: 10px auto;
+	display: table;
+}
+
+.commentlist .comment {
+	padding: 5px;
+	list-style: none;
+	display: block;
+}
+
+.commentlist .comment .comment {
+	margin: 10px 10px 10px 10px;
+	padding: 5px;
+	width: auto;
+}
+
+	/* Аватарка, имя */
+.comment-author {
+	width: 80px;
+	float: left;
+	text-align: center;
+}
+
+	/* Имя автора */
+.comment-author .fn {
+	font-weight: bold;
+}
+
+	/* двоеточие */
+.comment-author .says {
+	display: none;
+}
+
+	/* Сама аватарка тег img */
+.avatar {
+	width: 35px;
+	border-right: 1px solid #dedcdc;
+	border-bottom: 1px solid #dedcdc;
+	padding: 5px;
+	background: #999;
+	border-radius: 5px
+}
+
+.comment-reply-title
+{
+	text-align: center;
+	margin-top: 30px
+}
+
+.comment-notes
+{
+	margin-top:20px;
+}
+
+#commentform
+{
+	text-align: center;
+}
+
+#comment
+{
+	width: 840px;
+	margin: 20px 50px;
+	font-size: 16px;
+}
+
+#author , #email , #url
+{
+	margin: 10px 0px
+}
+
+#author
+{
+	width: 300px;
+	height: 30px;
+	font-size: 16px;
+	margin-right: 10px
+}
+
+#email
+{
+	width: 300px;
+	height: 30px;
+	font-size: 16px;
+	margin-right: 21px
+}
+
+#url
+{
+	width: 300px;
+	height: 30px;
+	font-size: 16px;
+}
+
+#submit
+{
+	padding: 10px;
+	width: 400px;
+	margin-left: 20px
+}
+
+.comment
+{ 
+	overflow: hidden;
+    width: 600px;
+    height: auto;
+    padding: 5px;
+    font: bond 12px Arial;
+    word-wrap: break-word;
+}
+
+.tol
+{
+	position: relative;
+	
+}
+
